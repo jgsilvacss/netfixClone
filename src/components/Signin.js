@@ -1,5 +1,5 @@
 import React from "react";
-import {GoogleAuthProvider, signInWithPopup} from "firebase/auth";
+import { signInWithPopup} from "firebase/auth";
 import { Button } from "@mui/material";
 import netflix from "../images/netflix.png";
 import {auth, googleAuth} from "../firebase/setup";

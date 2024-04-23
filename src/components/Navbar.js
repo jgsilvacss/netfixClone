@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect,  } from "react";
-import { Box, Card, CardContent, CardMedia, Grid, Button } from "@mui/material";
+import {  Button } from "@mui/material";
 import netflix from "../images/netflix.png";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebase/setup";

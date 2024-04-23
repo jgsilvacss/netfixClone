@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Box, Card, CardContent, CardMedia, Grid } from "@mui/material";
+import { Box, Card, CardMedia, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
-import {MovieDetails} from "./MovieDetails";
+
 
 function Home() {
   const [movies, setMovies] = useState([]);
