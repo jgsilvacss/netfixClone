@@ -51,7 +51,7 @@ function Navbar() {
         <div style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://image.tmdb.org/t/p/original${movies[8]?.poster_path})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '600px', width: '100%'}}>
            <ToastContainer autoClose={2000}/>
             <div style={{display: 'flex', justifyContent: 'space-between', padding: '20px'}}>
-            <img  style ={{width: '140px'}} src={netflix}/>
+            <img  style ={{width: '140px'}} src={netflix} alt ="netflix logo"/>
             <div>
             {auth.currentUser?.emailVerified ? <Button onClick= {logOut} color= 'error' variant="contained" sx={{height: '40px', marginLeft: '10px'}}>Logout</Button> 
             :<Button onClick= {signInClick} color= 'error' variant="contained" sx={{height: '40px'}}>SignIn</Button>
