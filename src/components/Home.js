@@ -34,7 +34,7 @@ function Home() {
                     <CardMedia
                       component="img"
                       height="400px"
-                      image={`https://image.tmdb.org/t/p/original${movie?.poster_path}`}
+                      image={`https://image.tmdb.org/t/p/original${movie?.poster_path} alt="movie poster"`}
                     />
                 </Card>
                 </Link>
